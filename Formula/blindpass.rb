@@ -2,27 +2,27 @@
 class Blindpass < Formula
   desc "Run commands with secrets from your BlindPass vault, without printing them"
   homepage "https://blindpass.app"
-  version "0.2.74"
+  version "0.2.75"
 
   on_macos do
     on_arm do
-      url "https://blindpass.app/cli/0.2.74/blindpass-0.2.74-darwin-arm64.tar.gz"
-      sha256 "ed60387d3374d02e0d34ea8bacb42c0834544397e2541f4d8b6fd352ca3afaa2"
+      url "https://blindpass.app/cli/0.2.75/blindpass-0.2.75-darwin-arm64.tar.gz"
+      sha256 "a2422f23e0dbfcd9f2b27ffb0cee856c0fc3b64039e32a6dec42c687bd1e9341"
     end
     on_intel do
-      url "https://blindpass.app/cli/0.2.74/blindpass-0.2.74-darwin-x64.tar.gz"
-      sha256 "1d66ec07756793af786bcec14ad1a05a8132085ca17bee97d849c3ceb511e4d7"
+      url "https://blindpass.app/cli/0.2.75/blindpass-0.2.75-darwin-x64.tar.gz"
+      sha256 "ef26e46de0138320c012b107455b34fe995cc86f79930592c3280171e27b7436"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://blindpass.app/cli/0.2.74/blindpass-0.2.74-linux-arm64.tar.gz"
-      sha256 "3f14b93d8cad09a4b124996c0bb5bc4a6b9da53e96269fff7cbceca20fb43f6a"
+      url "https://blindpass.app/cli/0.2.75/blindpass-0.2.75-linux-arm64.tar.gz"
+      sha256 "2b0e4a84c6fa1ddbb5ce928a9dbc62dee708412883c641c7f88729c2ae69c31e"
     end
     on_intel do
-      url "https://blindpass.app/cli/0.2.74/blindpass-0.2.74-linux-x64.tar.gz"
-      sha256 "2670ee6babd57251d9f471ea71a8b8e2a5d08ee64665b074baa71386aa5847f2"
+      url "https://blindpass.app/cli/0.2.75/blindpass-0.2.75-linux-x64.tar.gz"
+      sha256 "7fefecf634643b8b8a638a6335b4f8a710d8a174771642b2f69201a22c629352"
     end
   end
 
